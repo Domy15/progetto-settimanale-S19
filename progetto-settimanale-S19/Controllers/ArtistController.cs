@@ -38,6 +38,7 @@ namespace progetto_settimanale_S19.Controllers
         }
 
         [HttpGet]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> GetAllArtists()
         {
             try
@@ -61,6 +62,7 @@ namespace progetto_settimanale_S19.Controllers
         }
 
         [HttpGet("{id:int}")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> GetArtistById(int id)
         {
             try
