@@ -1,7 +1,5 @@
 ﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using progetto_settimanale_S19.DTOs.Artist;
 using progetto_settimanale_S19.DTOs.Event;
 using progetto_settimanale_S19.Services;
 

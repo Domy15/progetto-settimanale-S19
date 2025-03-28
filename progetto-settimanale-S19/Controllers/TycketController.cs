@@ -1,9 +1,7 @@
-﻿using System.Net.Sockets;
-using System.Security.Claims;
+﻿using System.Security.Claims;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using progetto_settimanale_S19.Data;
 using progetto_settimanale_S19.DTOs.Tycket;
 using progetto_settimanale_S19.Models;
